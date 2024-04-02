@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background: url(./images/netflixteaser.png);
+    background-size: 1500px 695px;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+    font-family:'Roboto';
+}
+nav{
+    display: flex;
+     justify-content: space-around; 
+}
+nav .img img{
+    width: 50%;
+   margin-right: 70%;
+}
+nav .btn{
+display: flex;
+margin-top: 20px; 
+margin-left: 60%;
+}
+.btn .eng{
+    margin-inline: 22px;
+    width: 110px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.btn .eng:hover{
+    background-color: transparent;
+    font-size: 18px;
+}
+.btn .sign{
+    margin-inline: 22px;
+    width: 90px;
+    height: 40px;
+    background-color:rgb(224, 16, 16);
+    color: white;
+    font-size: 17px;
+    border-radius: 3px ; 
+    border: none;
+    border-radius: 5px;
+}
+.btn .sign:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    font-size: 18px;
+}
+.main{
+    text-align: center;
+    margin: 13%;
+}
+.main h1{
+ font-size: 60px;
+}
+.main h3{
+    font-size: 44px;
+}
+.main p{
+    font-size: 22px;
+}
+.input{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.input input{
+    width: 400px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+}
+.input button{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(225, 11, 11);
+    color:white;
+    font-size: 17px;
+    border: none;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 150px;
+    padding: 80px;
+    border-top: 4px solid gray;
+}
+.first h1{
+    font-size: 55px;
+}
+.first p{
+    font-size: 25px;
+}
+.first img{
+ width: 35%;
+ border-radius: 20px;
+}
+.first .text{
+    margin-top: 15%;
+    justify-content: space-between;
+}
+.buttons h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 44px;
+}
+.buttons button{
+    background-color: gray;
+    color: white;
+    width: 600px;
+    height: 40px;
+    font-size: 20px;
+    display:flex;
+    align-items: left;
+    margin-left: 30%;
+}
+.footer{
+    border-top: 4px solid gray;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 44px;
+    margin-top: 53px;
+}
+.footer p{
+    font-size: 20px;
+    margin-top: 12px;
+}
